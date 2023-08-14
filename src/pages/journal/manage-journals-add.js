@@ -152,14 +152,14 @@ export default function ManageJournalAdd() {
               </div>
             </div>
             <div className="text-end">
-              <button type="submit" className="btn btn-primary">
+              <button type="submit" className="btn btn-outline-dark btn-sm">
                 Add
               </button>
             </div>
           </form>
         </div>
         <div className="text-center">
-          <Link to="/manage-journals" className="btn btn-link btn-sm">
+          <Link to="/manage-journals" className="btn btn-outline-dark btn-sm">
             <i className="bi bi-arrow-left"></i> Back to journal
           </Link>
         </div>

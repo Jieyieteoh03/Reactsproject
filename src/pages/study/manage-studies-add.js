@@ -191,7 +191,7 @@ export default function ManageStudiesAdd() {
             </div>
 
             <div className="text-end mt-3">
-              <button type="submit" className="btn btn-primary">
+              <button type="submit" className="btn btn-outline-dark btn-sm">
                 Add
               </button>
             </div>
@@ -199,7 +199,7 @@ export default function ManageStudiesAdd() {
         </Card.Body>
       </Card>
       <div className="text-center mt-3">
-        <Link to="/manage-studies">
+        <Link to="/manage-studies" className="btn btn-outline-dark btn-sm">
           <i className="bi bi-box-arrow-in-left me-2"></i>Back to Manage Planner
         </Link>
       </div>

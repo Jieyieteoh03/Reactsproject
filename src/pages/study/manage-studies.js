@@ -23,7 +23,10 @@ export default function ManageStudies() {
       <div className="d-flex justify-content-between align-items-center mb-2">
         <h1 className="h1">Manage Study Planner</h1>
         <div className="text-end">
-          <Link to="/manage-studies-add" className="btn btn-primary btn-sm">
+          <Link
+            to="/manage-studies-add"
+            className="btn btn-outline-dark btn-sm"
+          >
             Add New Study
           </Link>
         </div>
@@ -108,7 +111,7 @@ export default function ManageStudies() {
         </table>
       </div>
       <div className="text-center">
-        <Link to="/dashboard" className="btn btn-link btn-sm">
+        <Link to="/dashboard" className="btn btn-outline-dark btn-sm">
           <i className="bi bi-arrow-left"></i> Back to Dashboard
         </Link>
       </div>

@@ -94,7 +94,7 @@ export default function StudyPost() {
       </div>
 
       <div className="text-center mt-5 ">
-        <Link to="/" id="sbtn" className="btn btn-outline-dark btn-sm">
+        <Link to="/" className="btn btn-outline-dark btn-sm">
           <i className="bi bi-arrow-left"></i> Home
         </Link>
         <Link to="/manage-studies" className="btn btn-outline-dark btn-sm ms-2">

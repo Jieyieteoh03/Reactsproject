@@ -22,7 +22,10 @@ export default function ManageJournals() {
       <div className="d-flex justify-content-between align-items-center mb-2">
         <h1 className="h1">Manage Journals</h1>
         <div className="text-end">
-          <Link to="/manage-journals-add" className="btn btn-primary btn-sm">
+          <Link
+            to="/manage-journals-add"
+            className="btn btn-outline-dark btn-sm"
+          >
             Add New Journal
           </Link>
         </div>
@@ -92,7 +95,7 @@ export default function ManageJournals() {
         </table>
       </div>
       <div className="text-center">
-        <Link to="/dashboard" className="btn btn-link btn-sm">
+        <Link to="/dashboard" className="btn btn-outline-dark btn-sm">
           <i className="bi bi-arrow-left"></i> Back to Dashboard
         </Link>
       </div>

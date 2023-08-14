@@ -18,7 +18,10 @@ export default function Dashboard() {
                 Manage Studies
               </h5>
               <div className="text-center mt-3">
-                <Link to="/manage-studies" className="btn btn-primary btn-sm">
+                <Link
+                  to="/manage-studies"
+                  className="btn btn-outline-dark btn-sm"
+                >
                   Access
                 </Link>
               </div>
@@ -35,7 +38,10 @@ export default function Dashboard() {
                 Manage Journals
               </h5>
               <div className="text-center mt-3">
-                <Link to="/manage-journals" className="btn btn-primary btn-sm">
+                <Link
+                  to="/manage-journals"
+                  className="btn btn-outline-dark btn-sm"
+                >
                   Access
                 </Link>
               </div>
@@ -44,7 +50,7 @@ export default function Dashboard() {
         </div>
       </div>
       <div className="mt-4 text-center">
-        <Link to="/" className="btn btn-link btn-sm">
+        <Link to="/" className="btn btn-outline-dark btn-sm">
           <i className="bi bi-arrow-left"></i> Back
         </Link>
       </div>
